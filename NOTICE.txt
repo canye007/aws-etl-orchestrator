@@ -1,2 +1,15 @@
 aws-etl-orchestrator
  Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+ Table of Contents
+=================
+
+   * [Introduction](#introduction)
+   * [The challenge of orchestrating an ETL workflow](#the-challenge-of-orchestrating-an-etl-workflow)
+   * [Example ETL workflow requirements](#example-etl-workflow-requirements)
+   * [The ETL orchestration architecture and events](#the-etl-orchestration-architecture-and-events)
+      * [Modeling the ETL orchestration workflow in AWS Step Functions](#modeling-the-etl-orchestration-workflow-in-aws-step-functions)
+      * [AWS CloudFormation templates](#aws-cloudformation-templates)
+      * [Handling failed ETL jobs](#handling-failed-etl-jobs)
+   * [Preparing your development environment](#preparing-your-development-environment)
+   * [Configuring the project](#configuring-the-p
